@@ -1,0 +1,21 @@
+{
+    "name": "artnum/kjrest",
+    "description": "Generic JSON-Rest API",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [{
+        "name": "Etienne Bagnoud",
+        "email": "etienne@artnum.ch",
+        "homepage": "https://artnum.ch",
+        "role": "Developper"
+    }],
+    "autoload": {
+        "psr-4": {"artnum\\KJRest\\": "src/"}
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.15"
+    }
+}
